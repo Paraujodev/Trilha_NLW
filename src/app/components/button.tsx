@@ -1,0 +1,11 @@
+interface ButtonProps{
+    text?:string
+}
+
+export function Button(props:ButtonProps){
+    return (
+        <button className="bg-violet-500 px-5 py - rouded-sm">
+            {props.text || 'Enviar'}
+        </button>
+    )
+}
