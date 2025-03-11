@@ -20,7 +20,7 @@ export default function Home() {
         <div className="flex-1 bg-gray-700 border border-gray-600 rounded-2xl p-8 space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="font-heading font-semibold text-gray-200 text-xl">
-              Sobre o evento
+              Sobre o evento:
             </h2>
             <span className="text-purple font-semibold text-xs flex flex-items-center gap-2">
               <Radio className="size-5" /> Ao Vivo
