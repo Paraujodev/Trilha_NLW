@@ -6,7 +6,7 @@ import { ArrowRight, Mail, User, UserSearch } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { subscribe } from "diagnostics_channel";
+// import { subscribe } from "diagnostics_channel";
 import { subscribeToEvent } from "@/http/api";
 import { useRouter, useSearchParams } from "next/navigation";
 
